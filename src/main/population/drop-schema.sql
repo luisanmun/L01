@@ -31,6 +31,8 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `ganan_garcia_bulletin`;
+
     drop table if exists `dorado_abadias_bulletin`;
 
     drop table if exists `provider`;
