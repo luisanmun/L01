@@ -1,13 +1,8 @@
 
 package acme.entities.sanchezMunozBulletin;
 
-import java.util.Date;
-
 import javax.persistence.Entity;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Past;
 
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -28,10 +23,8 @@ public class SanchezMunozBulletin extends DomainEntity {
 	private String				author;
 
 	@NotBlank
-	private String				text;
+	private String				country;
 
-	@Temporal(TemporalType.TIMESTAMP)
-	@Past
-	private Date				moment;
+	private Integer				quality;
 
 }

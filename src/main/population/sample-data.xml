@@ -33,8 +33,8 @@
 	
 		<bean id="bulletinSanchezMunoztest" class="acme.entities.sanchezMunozBulletin.SanchezMunozBulletin">
 		<property name="author" value="Luis Manuel Sanchez Munoz" />
-		<property name="text" value="Bulletin test." />
-		<property name="moment" value="2019/09/09 10:00" />
+		<property name="country" value="Spain" />
+		<property name="quality" value="7" />
 	</bean>
 
   <bean id="bulletinCamposIglesiatest" class="acme.entities.camposIglesiaBulletin.CamposIglesiaBulletin">

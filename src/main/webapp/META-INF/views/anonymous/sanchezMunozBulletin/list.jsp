@@ -16,7 +16,7 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list readonly="true">
-	<acme:list-column code="anonymous.bulletin.list.label.moment" path="moment" width="20%"/>
 	<acme:list-column code="anonymous.bulletin.list.label.author" path="author" width="20%"/>
-	<acme:list-column code="anonymous.bulletin.list.label.text" path="text" width="60%"/>
+	<acme:list-column code="anonymous.bulletin.list.label.country" path="country" width="20%"/>
+	<acme:list-column code="anonymous.bulletin.list.label.quality" path="quality" width="60%"/>
 </acme:list>

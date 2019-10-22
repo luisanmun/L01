@@ -20,15 +20,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `campos_iglesia_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `dorsal` integer,
-        `equipo` varchar(255),
-        `nacimiento` datetime(6),
-        `patrocinador` varchar(255),
-    ) engine=InnoDB;
-
     create table `calle_perez_bulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -36,6 +27,16 @@
         `body` varchar(255),
         `moment` datetime(6),
         `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `campos_iglesia_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `dorsal` integer,
+        `equipo` varchar(255),
+        `nacimiento` datetime(6),
+        `patrocinador` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -48,6 +49,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `dorado_abadias_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `oid` integer,
+        `text` varchar(255),
+        `uri` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
 
     create table `ganan_garcia_bulletin` (
        `id` integer not null,
@@ -57,16 +67,6 @@
         `goles` integer,
         `nombre` varchar(255),
         `partidos_jugados` integer,
-           primary key (`id`)
-    ) engine=InnoDB;
-    
-    create table `dorado_abadias_bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `author` varchar(255),
-        `oid` integer,
-        `text` varchar(255),
-        `uri` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -83,8 +83,8 @@
        `id` integer not null,
         `version` integer not null,
         `author` varchar(255),
-        `moment` datetime(6),
-        `text` varchar(255),
+        `country` varchar(255),
+        `quality` integer,
         primary key (`id`)
     ) engine=InnoDB;
 
