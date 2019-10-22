@@ -1,3 +1,4 @@
+
 <%--
 - menu.jsp
 -
@@ -32,8 +33,15 @@
 			<acme:menu-suboption code="master.menu.anonymous.listSanchezMunozBulletins" action="/anonymous/sanchezMunozBulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.createSanchezMunozbulletins" action="/anonymous/sanchezMunozBulletin/create"/>
 			
-			<acme:menu-suboption code="List Ganan Garcia Bulletins" action="/anonymous/gananGarciaBulletin/list"/>
+			<acme:menu-suboption code="Listar Publicaciones Calle Perez Bulletins" action="/anonymous/callePerezBulletin/list"/>
+			<acme:menu-suboption code="Crear Publicacion Calle Perez Bulletins" action="/anonymous/callePerezBulletin/create"/>
+      
+			<acme:menu-suboption code="List Dorado Abadias Bulletins" action="/anonymous/doradoAbadiasBulletin/list"/>
+			<acme:menu-suboption code="Create Dorado Abadias Bulletins" action="/anonymous/doradoAbadiasBulletin/create"/>
+      
+      <acme:menu-suboption code="List Ganan Garcia Bulletins" action="/anonymous/gananGarciaBulletin/list"/>
 			<acme:menu-suboption code="Create Ganan Garcia Bulletins" action="/anonymous/gananGarciaBulletin/create"/>
+			
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -66,4 +74,3 @@
 		<acme:menu-option code="master.menu.sign-out" action="/master/sign-out" access="isAuthenticated()"/>
 	</acme:menu-right>
 </acme:menu-bar>
-

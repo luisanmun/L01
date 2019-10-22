@@ -323,6 +323,7 @@ Shout
       <h>95</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
+      
 GananGarciaBulletin
 
 --
@@ -332,6 +333,34 @@ GananGarciaBulletin
 + goles : Integer 
 + partidosJugados : Integer 
 + fechaInscripcion : Date {Temporal(TIMESTAMP) Past}</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
+
+CallePerezBulletin
+
+--
+
++ moment : Date {Temporal(TIMESTAMP) Past}
++ author : String {NotBlank}
++ title : String {NotBlank}
++ body : String (NotBlank)</panel_attributes>
+  <coordinates>
+      <x>475</x>
+      <y>380</y>
+      <w>165</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+      
+DoradoAbadiasBulletin
+
+--
+
++ oid: Integer 
++ uri: String {NotBlank}
++ author : String {NotBlank}
++ text : String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
