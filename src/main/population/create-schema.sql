@@ -27,6 +27,14 @@
         `equipo` varchar(255),
         `nacimiento` datetime(6),
         `patrocinador` varchar(255),
+
+    create table `calle_perez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `body` varchar(255),
+        `moment` datetime(6),
+        `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -36,6 +44,16 @@
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `dorado_abadias_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `oid` integer,
+        `text` varchar(255),
+        `uri` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 

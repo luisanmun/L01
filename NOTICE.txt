@@ -26,4 +26,10 @@ The following tools and components are required:
 	- UMLet - UML Tool for Fast UML Diagrams 14.3
 	- Lombok 1.18.8
 
+The contributors of this project are:
 
+- Oscar Dorado Abadias (oscdoraba@alum.us.es)
+- Luis Manuel Sanchez Muñoz (luisanmun@alum.us.es)
+- Luis Campos Iglesia (luicamigl1@alum.us.es)
+- David Gañan Garcia (davgangar1@alum.us.es)
+- Pablo Calle Perez (pabcalper@alum.us.es)

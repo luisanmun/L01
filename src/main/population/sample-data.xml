@@ -44,3 +44,59 @@
 	</bean>
 
 </beans>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- - sample-data.xml - - Copyright (c) 2019 Rafael Corchuelo. - - In keeping with the traditional purpose of furthering education and 
+	research, it is - the policy of the copyright owner to permit non-commercial use and redistribution of - this software. It has been tested 
+	carefully, but it is not guaranteed for any particular - purposes. The copyright owner does not offer any warranties or representations, 
+	nor do - they accept any liabilities with respect to them. -->
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<import resource="conversion-service.xml" />
+
+
+	<!-- Shouts -->
+
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="author" value="Jhon Doe" />
+		<property name="text" value="I'm happy" />
+		<property name="moment" value="2019/09/09 10:00" />
+	</bean>
+
+	<bean id="shout02" class="acme.entities.shouts.Shout">
+		<property name="author" value="Jhon A" />
+		<property name="text" value="I'm sad" />
+		<property name="moment" value="2019/09/09 10:00" />
+	</bean>
+
+	<bean id="shout03" class="acme.entities.shouts.Shout">
+		<property name="author" value="Jhon B" />
+		<property name="text" value="I'm not happy" />
+		<property name="moment" value="2019/09/09 10:00" />
+	</bean>
+	
+		<bean id="bulletinSanchezMunoztest" class="acme.entities.sanchezMunozBulletin.SanchezMunozBulletin">
+		<property name="author" value="Luis Manuel Sanchez Munoz" />
+		<property name="text" value="Bulletin test." />
+		<property name="moment" value="2019/09/09 10:00" />
+	</bean>
+
+	<bean id="bulletinCallePereztest" class="acme.entities.callePerezBulletin.CallePerezBulletin">
+		<property name="author" value="Pablo Calle Perez" />
+		<property name="title" value="Otra vez" />
+		<property name="moment" value="2019/09/29 19:00" />
+		<property name="body" value="Otra vez, quiero estar bien sin ti, quiero ser tallo sin raiz..." />
+	</bean>
+	
+	
+	<bean id="bulletinDoradoAbadiastest" class="acme.entities.doradoAbadiasBulletin.DoradoAbadiasBulletin">
+		<property name="oid" value="1" />
+		<property name="uri" value="https://es.wikipedia.org/wiki/Charles_Darwin" />
+		<property name="author" value="Charles Darwin" />
+		<property name="text" value="Biografia de Charles Darwin" />
+	</bean>
+
+
+</beans>
