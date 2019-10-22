@@ -32,6 +32,9 @@
 			<acme:menu-suboption code="master.menu.anonymous.listSanchezMunozBulletins" action="/anonymous/sanchezMunozBulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.createSanchezMunozbulletins" action="/anonymous/sanchezMunozBulletin/create"/>
 			
+			<acme:menu-suboption code="List Campos Iglesia Bulletin" action="/anonymous/camposIglesiaBulletin/list"/>
+			<acme:menu-suboption code="Create Campos Iglesia Bulletin" action="/anonymous/camposIglesiaBulletin/create"/>
+			
 			
 		</acme:menu-option>
 
