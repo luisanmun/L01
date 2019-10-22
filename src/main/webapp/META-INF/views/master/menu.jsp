@@ -32,6 +32,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.listSanchezMunozBulletins" action="/anonymous/sanchezMunozBulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.createSanchezMunozbulletins" action="/anonymous/sanchezMunozBulletin/create"/>
 			
+			<acme:menu-suboption code="Listar Publicaciones Calle Perez Bulletins" action="/anonymous/callePerezBulletin/list"/>
+			<acme:menu-suboption code="Crear Publicacion Calle Perez Bulletins" action="/anonymous/callePerezBulletin/create"/>
 			
 		</acme:menu-option>
 
