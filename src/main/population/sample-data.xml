@@ -36,5 +36,13 @@
 		<property name="text" value="Bulletin test." />
 		<property name="moment" value="2019/09/09 10:00" />
 	</bean>
+	
+	<bean id="bulletinGananGarciatest" class="acme.entities.gananGarciaBulletin.GananGarciaBulletin">
+		<property name="nombre" value="David Ganan Garcia" />
+		<property name="dorsal" value="10" />
+		<property name="goles" value="250" />
+		<property name="partidosJugados" value="200" />
+		<property name="fechaInscripcion" value="2019/08/09 10:00" />
+	</bean>
 
 </beans>

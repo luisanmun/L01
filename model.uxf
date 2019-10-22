@@ -314,4 +314,24 @@ Shout
 + text : String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>370</y>
+      <w>185</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+GananGarciaBulletin
+
+--
+
++ nombre : String {NotBlank}
++ dorsal : Integer 
++ goles : Integer 
++ partidosJugados : Integer 
++ fechaInscripcion : Date {Temporal(TIMESTAMP) Past}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

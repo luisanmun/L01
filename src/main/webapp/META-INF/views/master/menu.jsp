@@ -32,7 +32,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.listSanchezMunozBulletins" action="/anonymous/sanchezMunozBulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.createSanchezMunozbulletins" action="/anonymous/sanchezMunozBulletin/create"/>
 			
-			
+			<acme:menu-suboption code="List Ganan Garcia Bulletins" action="/anonymous/gananGarciaBulletin/list"/>
+			<acme:menu-suboption code="Create Ganan Garcia Bulletins" action="/anonymous/gananGarciaBulletin/create"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

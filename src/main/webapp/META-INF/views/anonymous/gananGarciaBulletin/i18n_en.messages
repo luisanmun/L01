@@ -1,0 +1,23 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.bulletin.list.label.nombre = Name
+anonymous.bulletin.list.label.dorsal = Dorsal
+anonymous.bulletin.list.label.goles = Goals
+anonymous.bulletin.list.label.partidosJugados = MatchPlayed 
+anonymous.bulletin.list.label.fechaInscripcion = InscriptionDate
+
+
+anonymous.bulletin.form.label.nombre = Name:
+anonymous.bulletin.form.label.goles = Goals:
+anonymous.bulletin.form.label.dorsal = Dorsal:
+anonymous.bulletin.form.label.partidosJugados = MatchPlayed 
+anonymous.bulletin.form.button.create = Create Bulletin
+anonymous.bulletin.form.button.return = Return
