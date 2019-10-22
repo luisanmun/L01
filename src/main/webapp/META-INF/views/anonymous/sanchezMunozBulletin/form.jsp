@@ -17,7 +17,9 @@
 
 <acme:form>
 	<acme:form-textbox code="anonymous.bulletin.form.label.author" path="author"/>
-	<acme:form-textarea code="anonymous.bulletin.form.label.text" path="text"/>
+	<acme:form-textarea code="anonymous.bulletin.form.label.country" path="country"/>
+	<acme:form-textarea code="anonymous.bulletin.form.label.quality" path="quality"/>
+	
 
 	<acme:form-submit code="anonymous.bulletin.form.button.create" action="/anonymous/sanchezMunozBulletin/create"/>
 	<acme:form-return code="anonymous.bulletin.form.button.return"/>

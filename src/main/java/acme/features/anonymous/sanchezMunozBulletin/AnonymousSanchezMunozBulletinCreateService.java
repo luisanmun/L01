@@ -1,8 +1,6 @@
 
 package acme.features.anonymous.sanchezMunozBulletin;
 
-import java.util.Date;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -34,14 +32,11 @@ public class AnonymousSanchezMunozBulletinCreateService implements AbstractCreat
 		assert request != null;
 
 		SanchezMunozBulletin result;
-		Date moment;
-
-		moment = new Date(System.currentTimeMillis() - 1);
 
 		result = new SanchezMunozBulletin();
 		result.setAuthor("Jhon Doe");
-		result.setText("Lorem ipsum!");
-		result.setMoment(moment);
+		result.setCountry("UK");
+		result.setQuality(3);
 
 		return result;
 	}
@@ -52,7 +47,7 @@ public class AnonymousSanchezMunozBulletinCreateService implements AbstractCreat
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "author", "text");
+		request.unbind(entity, model, "author", "country", "quality");
 	}
 
 	@Override
@@ -76,10 +71,6 @@ public class AnonymousSanchezMunozBulletinCreateService implements AbstractCreat
 		assert request != null;
 		assert entity != null;
 
-		Date moment;
-
-		moment = new Date(System.currentTimeMillis() - 1);
-		entity.setMoment(moment);
 		this.repository.save(entity);
 	}
 }

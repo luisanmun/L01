@@ -8,11 +8,13 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-anonymous.bulletin.list.label.moment = Moment
 anonymous.bulletin.list.label.author = Author
-anonymous.bulletin.list.label.text = Text
+anonymous.bulletin.list.label.country = Country
+anonymous.bulletin.list.label.quality = Quality
 
 anonymous.bulletin.form.label.author = Author:
-anonymous.bulletin.form.label.text = Text:
+anonymous.bulletin.form.label.country = Country:
+anonymous.bulletin.form.label.quality = Quality:
+
 anonymous.bulletin.form.button.create = Create Bulletin
 anonymous.bulletin.form.button.return = Return

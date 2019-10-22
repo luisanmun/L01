@@ -48,6 +48,6 @@ public class AnonymousSanchezMunozBulletinListService implements AbstractListSer
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "author", "text", "moment");
+		request.unbind(entity, model, "author", "country", "quality");
 	}
 }
