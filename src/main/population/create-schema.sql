@@ -39,6 +39,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `dorado_abadias_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `oid` integer,
+        `text` varchar(255),
+        `uri` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,

@@ -36,7 +36,7 @@
 		<property name="text" value="Bulletin test." />
 		<property name="moment" value="2019/09/09 10:00" />
 	</bean>
-	
+
 	<bean id="bulletinCallePereztest" class="acme.entities.callePerezBulletin.CallePerezBulletin">
 		<property name="author" value="Pablo Calle Perez" />
 		<property name="title" value="Otra vez" />
@@ -45,5 +45,12 @@
 	</bean>
 	
 	
+	<bean id="bulletinDoradoAbadiastest" class="acme.entities.doradoAbadiasBulletin.DoradoAbadiasBulletin">
+		<property name="oid" value="1" />
+		<property name="uri" value="https://es.wikipedia.org/wiki/Charles_Darwin" />
+		<property name="author" value="Charles Darwin" />
+		<property name="text" value="Biografia de Charles Darwin" />
+	</bean>
+
 
 </beans>
