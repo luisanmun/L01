@@ -36,6 +36,14 @@
 		<property name="text" value="Bulletin test." />
 		<property name="moment" value="2019/09/09 10:00" />
 	</bean>
+
+  <bean id="bulletinCamposIglesiatest" class="acme.entities.camposIglesiaBulletin.CamposIglesiaBulletin">
+		<property name="patrocinador" value="Adidas" />
+		<property name="equipo" value="Sevilla" />
+		<property name="nacimiento" value="1996/08/22 05:00" />
+		<property name="dorsal" value="10" />
+	</bean>
+	
 	
 	<bean id="bulletinGananGarciatest" class="acme.entities.gananGarciaBulletin.GananGarciaBulletin">
 		<property name="nombre" value="David Ganan Garcia" />

@@ -25,6 +25,8 @@
 
     drop table if exists `authenticated`;
 
+    drop table if exists `campos_iglesia_bulletin`;
+
     drop table if exists `calle_perez_bulletin`;
 
     drop table if exists `consumer`;

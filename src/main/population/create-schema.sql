@@ -20,6 +20,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `campos_iglesia_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `dorsal` integer,
+        `equipo` varchar(255),
+        `nacimiento` datetime(6),
+        `patrocinador` varchar(255),
+    ) engine=InnoDB;
+
     create table `calle_perez_bulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -38,6 +47,7 @@
         `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
+
 
     create table `ganan_garcia_bulletin` (
        `id` integer not null,

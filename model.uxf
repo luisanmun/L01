@@ -1,6 +1,8 @@
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>5</zoom_level>
+  <zoom_level>10</zoom_level>
+
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -314,6 +316,7 @@ Shout
 + text : String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -323,7 +326,37 @@ Shout
       <h>95</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
+   
+      <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>385</y>
+      <w>165</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
       
+SanchezMunozBulletin
+
+--
+
++ moment : Date {Temporal(TIMESTAMP) Past}
++ author : String {NotBlank}
++ text : String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>370</y>
+      <w>185</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt; 
+     
 GananGarciaBulletin
 
 --
@@ -335,8 +368,16 @@ GananGarciaBulletin
 + fechaInscripcion : Date {Temporal(TIMESTAMP) Past}</panel_attributes>
     <additional_attributes/>
   </element>
-</diagram>
 
+<element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>475</x>
+      <y>380</y>
+      <w>165</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
 CallePerezBulletin
 
 --
@@ -345,7 +386,12 @@ CallePerezBulletin
 + author : String {NotBlank}
 + title : String {NotBlank}
 + body : String (NotBlank)</panel_attributes>
-  <coordinates>
+<additional_attributes/>
+  </element>
+     
+<element>
+    <id>UMLClass</id>
+    <coordinates>
       <x>475</x>
       <y>380</y>
       <w>165</w>
@@ -363,4 +409,28 @@ DoradoAbadiasBulletin
 + text : String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+
+  
+  
+<element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>465</y>
+      <w>185</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+      
+CamposIglesiaBulletin
+
+--
+
++ nacimiento : Date {Temporal(TIMESTAMP) Past}
++ Dorsal : Integer 
++ patrocinador : String {NotBlank}
++ equipo : String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
+
