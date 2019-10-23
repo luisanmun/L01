@@ -32,17 +32,17 @@
 			<acme:menu-suboption code="master.menu.anonymous.listSanchezMunozBulletins" action="/anonymous/sanchezMunozBulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.createSanchezMunozbulletins" action="/anonymous/sanchezMunozBulletin/create"/>
 			
-			<acme:menu-suboption code="Listar Publicaciones Calle Perez Bulletins" action="/anonymous/callePerezBulletin/list"/>
-			<acme:menu-suboption code="Crear Publicacion Calle Perez Bulletins" action="/anonymous/callePerezBulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.listCallePerezBulletins" action="/anonymous/callePerezBulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.createCallePerezbulletins" action="/anonymous/callePerezBulletin/create"/>
       
-			<acme:menu-suboption code="List Dorado Abadias Bulletins" action="/anonymous/doradoAbadiasBulletin/list"/>
-			<acme:menu-suboption code="Create Dorado Abadias Bulletins" action="/anonymous/doradoAbadiasBulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.listDoradoAbadiasBulletins" action="/anonymous/doradoAbadiasBulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.createDoradoAbadiasbulletins" action="/anonymous/doradoAbadiasBulletin/create"/>
 			
-			<acme:menu-suboption code="List Campos Iglesia Bulletin" action="/anonymous/camposIglesiaBulletin/list"/>
-			<acme:menu-suboption code="Create Campos Iglesia Bulletin" action="/anonymous/camposIglesiaBulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.listCamposIglesiaBulletins" action="/anonymous/camposIglesiaBulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.createCamposIglesiabulletins" action="/anonymous/camposIglesiaBulletin/create"/>
       
-      <acme:menu-suboption code="List Ganan Garcia Bulletins" action="/anonymous/gananGarciaBulletin/list"/>
-			<acme:menu-suboption code="Create Ganan Garcia Bulletins" action="/anonymous/gananGarciaBulletin/create"/>
+     		<acme:menu-suboption code="master.menu.anonymous.listGananGarciaBulletins" action="/anonymous/gananGarciaBulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.createGananGarciabulletins" action="/anonymous/gananGarciaBulletin/create"/>
 			
 		</acme:menu-option>
 

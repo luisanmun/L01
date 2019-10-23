@@ -104,3 +104,12 @@ master.menu.anonymous.createShouts = Create Shouts
 
 master.menu.anonymous.listSanchezMunozBulletins = List Sanchez Munoz Bulletins
 master.menu.anonymous.createSanchezMunozbulletins = Create Sanchez Munoz Bulletins
+master.menu.anonymous.listCallePerezBulletins = List Calle Perez Bulletins
+master.menu.anonymous.createCallePerezbulletins = Create Calle Perez Bulletins
+master.menu.anonymous.listDoradoAbadiasBulletins = List Dorado Abadias Bulletins
+master.menu.anonymous.createDoradoAbadiasbulletins = Create Dorado Abadias Bulletins
+master.menu.anonymous.listCamposIglesiaBulletins = List Campos Iglesia Bulletins
+master.menu.anonymous.createCamposIglesiabulletins = Create Campos Iglesia Bulletins
+master.menu.anonymous.listGananGarciaBulletins = List Ganan Garcia Bulletins
+master.menu.anonymous.createGananGarciabulletins = Create Ganan Garcia Bulletins
+
